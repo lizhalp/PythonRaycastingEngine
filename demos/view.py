@@ -32,6 +32,7 @@ class View:
         #player vars
         self._movSpeed = .1
         self._rotSpeed = 0.075
+        self.isSprinting = False
 
         self.posX = x
         self.posY = y
